@@ -47,7 +47,6 @@ set showmatch
 set showcmd
 set showmode
 set wildmenu
-set wildmode=list:longest
 
 
 " STATUS LINE ------------------------------------------------------------ {{{
@@ -86,7 +85,6 @@ set laststatus=2
 let mapleader = " "
 
 inoremap jk <Esc>
-inoremap kj <Esc>
 nnoremap o o<esc>
 nnoremap O O<esc>
 inoremap kl <Esc>la
