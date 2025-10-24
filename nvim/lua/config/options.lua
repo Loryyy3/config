@@ -48,3 +48,19 @@ vim.o.winborder = "rounded"
 -- instead raise a dialog asking if you wish to save the current file(s)
 vim.o.confirm = true
 
+-- in wsl to access windows clipboard
+-- vim.g.clipboard = {
+    -- name = "win32yank-wsl",
+    -- copy = {
+        -- ["+"] = "win32yank.exe -i --crlf",
+        -- ["*"] = "win32yank.exe -i --crlf",
+    -- },
+    -- paste = {
+        -- ["+"] = "win32yank.exe -o --lf",
+        -- ["*"] = "win32yank.exe -o --lf",
+    -- },
+    -- cache_enabled = true,
+-- }
+
+-- else comment toggle
+-- vim.o.clipboard = "unnamedplus"
