@@ -32,8 +32,8 @@ keymap.set("n", "<leader>bx", ":bd<cr>", { desc = "close buffer" })
 
 -- yank to clipboard
 keymap.set({ "n", "v" }, "<leader>y", '"+y', { desc = "yank to clipboard" })
--- keymap.set({ "n", "v" }, "<leader>p", '"+p', { desc = "paste from clipboard" })
--- keymap.set({ "n", "v" }, "<leader>P", '"+P', { desc = "paste from clipboard above" })
+keymap.set({ "n", "v" }, "<leader>p", '"+p', { desc = "paste from clipboard" })
+keymap.set({ "n", "v" }, "<leader>P", '"+P', { desc = "paste from clipboard above" })
 
 
 keymap.set("i", "jk", "<Esc>")
