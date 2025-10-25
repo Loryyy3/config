@@ -64,3 +64,6 @@ vim.o.confirm = true
 
 -- else comment toggle
 -- vim.o.clipboard = "unnamedplus"
+
+-- for autosession
+vim.o.sessionoptions="blank,buffers,curdir,folds,help,tabpages,winsize,winpos,terminal,localoptions"
